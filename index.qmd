@@ -1,0 +1,15 @@
+# Prefacio {.unnumbered}
+
+La Dirección de Control de Drogas y Cultivos Ilegales del Ministerio del Interior ha implementado un sistema informático para la gestión de la información de los avances en las tareas cotidianas y automatización de la generación de reportes. 
+
+Este documento contiene las instrucciones para el uso del sistema informático.
+
+- User guide
+- Technical documentation
+- Instruction manual
+- Operational manual
+- Training manual
+- Quick Start Guide
+- Installation manual
+- Maintenance manual
+- Software manual

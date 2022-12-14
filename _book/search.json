@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sistema de reporte de avances",
+    "section": "",
+    "text": "La Dirección de Control de Drogas y Cultivos Ilegales del Ministerio del Interior ha implementado un sistema informático para la gestión de la información de los avances en las tareas cotidianas y automatización de la generación de reportes.\nEste documento contiene las instrucciones para el uso del sistema informático.\n\nUser guide\nTechnical documentation\nInstruction manual\nOperational manual\nTraining manual\nQuick Start Guide\nInstallation manual\nMaintenance manual\nSoftware manual"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Inicio de sesión",
+    "section": "",
+    "text": "El aplicativo se accede vía web. Esto significa que puede accederse en teléfonos, PCs, laptops o cualquier dispositivo que cuente con un navegador."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "intro.html#enlace-del-aplicativo",
+    "href": "intro.html#enlace-del-aplicativo",
+    "title": "1  Inicio de sesión",
+    "section": "1.1 Enlace del aplicativo",
+    "text": "1.1 Enlace del aplicativo\nPara iniciar sesión en el aplicativo se debe acceder al siguiente enlace: https://apps.samuelenrique.com/app_reporte_avance.\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
+  },
+  {
+    "objectID": "intro.html#inicio-de-sesión",
+    "href": "intro.html#inicio-de-sesión",
+    "title": "1  Inicio de sesión",
+    "section": "1.2 Inicio de sesión",
+    "text": "1.2 Inicio de sesión"
+  },
+  {
+    "objectID": "login.html",
+    "href": "login.html",
+    "title": "1  Acceso",
+    "section": "",
+    "text": "El aplicativo se accede vía web. Esto significa que puede accederse en teléfonos, PCs, laptops o cualquier dispositivo que cuente con un navegador.\nPara iniciar sesión en el aplicativo se debe acceder al siguiente enlace: https://apps.samuelenrique.com/app_reporte_avance."
+  },
+  {
+    "objectID": "login.html#enlace-del-aplicativo",
+    "href": "login.html#enlace-del-aplicativo",
+    "title": "1  Inicio de sesión",
+    "section": "1.1 Enlace del aplicativo",
+    "text": "1.1 Enlace del aplicativo\nPara iniciar sesión en el aplicativo se debe acceder al siguiente enlace: https://apps.samuelenrique.com/app_reporte_avance.\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
+  },
+  {
+    "objectID": "login.html#inicio-de-sesión",
+    "href": "login.html#inicio-de-sesión",
+    "title": "1  Acceso",
+    "section": "1.2 Inicio de sesión",
+    "text": "1.2 Inicio de sesión\nPara el acceso, se debe presionar en el botón que indica “Sign in with Google”1.\n\n\n\n\n\nEl sistema hará uso de la cuenta Google que tenga sesión iniciada en el navegador. En caso de que no haya ninguna cuenta con sesión iniciada, aparecerá una ventana flotante en la que se podrá elegir una cuenta para el inicio de sesión. Debe seleccionarse el correo mininter.\n\n\n\n\n\nEn caso no aparezca listado el correo mininter, debe seleccionarse “Usar otra cuenta” e iniciar sesión con las mismas credenciales que se usan para acceder al correo mininter. Después de unos segundos de carga se puede visualizar la siguiente pantalla:"
+  },
+  {
+    "objectID": "roles.html",
+    "href": "roles.html",
+    "title": "2  Roles de equipo",
+    "section": "",
+    "text": "Esta sección explicará las diferencias entre roles de equipo"
+  },
+  {
+    "objectID": "login.html#pantalla-de-inicio",
+    "href": "login.html#pantalla-de-inicio",
+    "title": "1  Acceso",
+    "section": "1.1 Pantalla de inicio",
+    "text": "1.1 Pantalla de inicio\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
+  }
+]

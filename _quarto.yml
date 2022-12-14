@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Sistema de reporte de avances"
+  author: "Samuel Calderon"
+  chapters:
+    - index.qmd
+    - login.qmd
+    - roles.qmd
+    - tasks.qmd
+    - analytics.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: simplex
+    lang: es
+    fig-align: center
+  pdf:
+    documentclass: scrreprt
+
+
+
