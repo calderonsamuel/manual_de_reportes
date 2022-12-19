@@ -31,6 +31,7 @@ Después de unos segundos de carga se puede visualizar la siguiente pantalla:
 
 ![](img/board-empty.png){fig-aling="center"}
 
+Si el usuario ya cuenta con tareas asignadas, se mostrarán en la pantalla. La cantidad y colores de las tareas asignadas varía según el rol que el usuario tenga en su equipo.
 
 
 [^1]: En caso de que el navegador se encuentre con traducción al español, el texto dirá "Inicia sesión con Google".
