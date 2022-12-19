@@ -128,12 +128,16 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Indice de contenidos</h2>
    
   <ul>
-  <li><a href="#pendiente" id="toc-pendiente" class="nav-link active" data-scroll-target="#pendiente"> <span class="header-section-number">3.1</span> Pendiente</a></li>
-  <li><a href="#en-proceso" id="toc-en-proceso" class="nav-link" data-scroll-target="#en-proceso"> <span class="header-section-number">3.2</span> En proceso</a></li>
-  <li><a href="#pausado" id="toc-pausado" class="nav-link" data-scroll-target="#pausado"> <span class="header-section-number">3.3</span> Pausado</a></li>
-  <li><a href="#en-revisión" id="toc-en-revisión" class="nav-link" data-scroll-target="#en-revisión"> <span class="header-section-number">3.4</span> En revisión</a></li>
-  <li><a href="#observado" id="toc-observado" class="nav-link" data-scroll-target="#observado"> <span class="header-section-number">3.5</span> Observado</a></li>
-  <li><a href="#terminado" id="toc-terminado" class="nav-link" data-scroll-target="#terminado"> <span class="header-section-number">3.6</span> Terminado</a></li>
+  <li><a href="#ciclo-de-vida" id="toc-ciclo-de-vida" class="nav-link active" data-scroll-target="#ciclo-de-vida"> <span class="header-section-number">3.1</span> Ciclo de vida</a>
+  <ul class="collapse">
+  <li><a href="#pendiente" id="toc-pendiente" class="nav-link" data-scroll-target="#pendiente"> <span class="header-section-number">3.1.1</span> Pendiente</a></li>
+  <li><a href="#en-proceso" id="toc-en-proceso" class="nav-link" data-scroll-target="#en-proceso"> <span class="header-section-number">3.1.2</span> En proceso</a></li>
+  <li><a href="#pausado" id="toc-pausado" class="nav-link" data-scroll-target="#pausado"> <span class="header-section-number">3.1.3</span> Pausado</a></li>
+  <li><a href="#en-revisión" id="toc-en-revisión" class="nav-link" data-scroll-target="#en-revisión"> <span class="header-section-number">3.1.4</span> En revisión</a></li>
+  <li><a href="#observado" id="toc-observado" class="nav-link" data-scroll-target="#observado"> <span class="header-section-number">3.1.5</span> Observado</a></li>
+  <li><a href="#terminado" id="toc-terminado" class="nav-link" data-scroll-target="#terminado"> <span class="header-section-number">3.1.6</span> Terminado</a></li>
+  </ul></li>
+  <li><a href="#tarjeta-de-tareas" id="toc-tarjeta-de-tareas" class="nav-link" data-scroll-target="#tarjeta-de-tareas"> <span class="header-section-number">3.2</span> Tarjeta de tareas</a></li>
   </ul>
 </nav>
     </div>
@@ -156,6 +160,8 @@ ul.task-list{list-style: none;}
 
 </header>
 
+<section id="ciclo-de-vida" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="ciclo-de-vida"><span class="header-section-number">3.1</span> Ciclo de vida</h2>
 <p>En el ciclo de vida de una tarea existen las siguientes fases:</p>
 <ul>
 <li>Pendiente</li>
@@ -166,32 +172,45 @@ ul.task-list{list-style: none;}
 <li>Terminado</li>
 </ul>
 <p>En este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas.</p>
-<section id="pendiente" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="pendiente"><span class="header-section-number">3.1</span> Pendiente</h2>
+<section id="pendiente" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="pendiente"><span class="header-section-number">3.1.1</span> Pendiente</h3>
 <p>Indica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.</p>
 <p>No hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano.</p>
 </section>
-<section id="en-proceso" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="en-proceso"><span class="header-section-number">3.2</span> En proceso</h2>
-<p>Indica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso.</p>
+<section id="en-proceso" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="en-proceso"><span class="header-section-number">3.1.2</span> En proceso</h3>
+<p>Indica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. En esta fase la tarea necesita aún avances significativos.</p>
 <p>Idealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra.</p>
 </section>
-<section id="pausado" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="pausado"><span class="header-section-number">3.3</span> Pausado</h2>
+<section id="pausado" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="pausado"><span class="header-section-number">3.1.3</span> Pausado</h3>
 <p>Indica que la tarea tiene algún tipo de progreso pero el usuario NO está activamente trabajando para añadirle más progreso. Debe usarse cuando es necesario esperar trabajo de otras personas para progresar en la tarea o cuando una tarea más urgente es añadida, aplazando el cumplimiento de la actual.</p>
 <p>No existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que la tarea podría haber sido dividida en varias partes.</p>
 </section>
-<section id="en-revisión" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="en-revisión"><span class="header-section-number">3.4</span> En revisión</h2>
-<p>Indica que la tarea tiene progreso suficiente como para ser considerada como terminada. En esta fase, el usuario responsable de equipo debe dar el visto bueno para la finalización de la tarea.</p>
+<section id="en-revisión" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="en-revisión"><span class="header-section-number">3.1.4</span> En revisión</h3>
+<p>Indica que la tarea tiene progreso suficiente como para ser considerada como terminada. El cambio de fase de la tarea se encuentra a manos del responsable de equipo.</p>
+<p>Si la tarea:</p>
+<ul>
+<li>Está adecuadamente concluida, debe darse por “Terminada”</li>
+<li>Requiere cambios mínimos -típicamente de forma- para considerarse concluida, debe indicarse como “Observada”</li>
+<li>Requiere cambios sustanciales para considerarse concluida, debe indicarse como “En proceso”.</li>
+</ul>
 <p>No existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información.</p>
 </section>
-<section id="observado" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="observado"><span class="header-section-number">3.5</span> Observado</h2>
-<p>Indica que la tarea tiene progreso suficiente como para ser considerada como terminada</p>
+<section id="observado" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="observado"><span class="header-section-number">3.1.5</span> Observado</h3>
+<p>Indica que la tarea tiene progreso suficiente como para ser considerada como terminada pero necesita cambios mínimos antes de darla por finalizada. Generalmente estos cambios están referidos a correcciones de formato, ortografía, puntuación y otros relacionados. Una vez finalizada la corrección debe volver a reportarse como “En revisión”.</p>
+<p>No existe límite respecto al número de tareas que pueden tener este estado. Si una misma tarea es observada múltiples veces significa que la retroalimentación por parte del responsable de equipo no está siendo consistente o que el usuario no está tomando en cuenta la retroalimentación en su totalidad.</p>
 </section>
-<section id="terminado" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="terminado"><span class="header-section-number">3.6</span> Terminado</h2>
+<section id="terminado" class="level3" data-number="3.1.6">
+<h3 data-number="3.1.6" class="anchored" data-anchor-id="terminado"><span class="header-section-number">3.1.6</span> Terminado</h3>
+<p>Indica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.</p>
+<p>No existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas.</p>
+</section>
+</section>
+<section id="tarjeta-de-tareas" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="tarjeta-de-tareas"><span class="header-section-number">3.2</span> Tarjeta de tareas</h2>
 
 
 </section>

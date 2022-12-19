@@ -39,7 +39,7 @@
     "href": "tasks.html",
     "title": "3  Gestión de tareas",
     "section": "",
-    "text": "En el ciclo de vida de una tarea existen las siguientes fases:\nEn este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas."
+    "text": "En el ciclo de vida de una tarea existen las siguientes fases:\n\nPendiente\nEn proceso\nPausado\nEn revisión\nObservado\nTerminado\n\nEn este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas.\n\n\nIndica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.\nNo hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano.\n\n\n\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. En esta fase la tarea necesita aún avances significativos.\nIdealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra.\n\n\n\nIndica que la tarea tiene algún tipo de progreso pero el usuario NO está activamente trabajando para añadirle más progreso. Debe usarse cuando es necesario esperar trabajo de otras personas para progresar en la tarea o cuando una tarea más urgente es añadida, aplazando el cumplimiento de la actual.\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que la tarea podría haber sido dividida en varias partes.\n\n\n\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada. El cambio de fase de la tarea se encuentra a manos del responsable de equipo.\nSi la tarea:\n\nEstá adecuadamente concluida, debe darse por “Terminada”\nRequiere cambios mínimos -típicamente de forma- para considerarse concluida, debe indicarse como “Observada”\nRequiere cambios sustanciales para considerarse concluida, debe indicarse como “En proceso”.\n\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información.\n\n\n\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada pero necesita cambios mínimos antes de darla por finalizada. Generalmente estos cambios están referidos a correcciones de formato, ortografía, puntuación y otros relacionados. Una vez finalizada la corrección debe volver a reportarse como “En revisión”.\nNo existe límite respecto al número de tareas que pueden tener este estado. Si una misma tarea es observada múltiples veces significa que la retroalimentación por parte del responsable de equipo no está siendo consistente o que el usuario no está tomando en cuenta la retroalimentación en su totalidad.\n\n\n\nIndica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.\nNo existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas."
   },
   {
     "objectID": "tasks.html#pendiente",
@@ -53,7 +53,7 @@
     "href": "tasks.html#en-proceso",
     "title": "3  Gestión de tareas",
     "section": "3.2 En proceso",
-    "text": "3.2 En proceso\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso.\nIdealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra."
+    "text": "3.2 En proceso\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. En esta fase la tarea necesita aún avances significativos.\nIdealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra."
   },
   {
     "objectID": "tasks.html#pausado",
@@ -67,21 +67,21 @@
     "href": "tasks.html#en-revisión",
     "title": "3  Gestión de tareas",
     "section": "3.4 En revisión",
-    "text": "3.4 En revisión\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada. En esta fase, el usuario responsable de equipo debe dar el visto bueno para la finalización de la tarea.\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información."
+    "text": "3.4 En revisión\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada. El cambio de fase de la tarea se encuentra a manos del responsable de equipo.\nSi la tarea:\n\nEstá adecuadamente concluida, debe darse por “Terminada”\nRequiere cambios mínimos -típicamente de forma- para considerarse concluida, debe indicarse como “Observada”\nRequiere cambios sustanciales para considerarse concluida, debe indicarse como “En proceso”.\n\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información."
   },
   {
     "objectID": "tasks.html#observado",
     "href": "tasks.html#observado",
     "title": "3  Gestión de tareas",
     "section": "3.5 Observado",
-    "text": "3.5 Observado\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada"
+    "text": "3.5 Observado\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada pero necesita cambios mínimos antes de darla por finalizada. Generalmente estos cambios están referidos a correcciones de formato, ortografía, puntuación y otros relacionados. Una vez finalizada la corrección debe volver a reportarse como “En revisión”.\nNo existe límite respecto al número de tareas que pueden tener este estado. Si una misma tarea es observada múltiples veces significa que la retroalimentación por parte del responsable de equipo no está siendo consistente o que el usuario no está tomando en cuenta la retroalimentación en su totalidad."
   },
   {
     "objectID": "tasks.html#terminado",
     "href": "tasks.html#terminado",
     "title": "3  Gestión de tareas",
     "section": "3.6 Terminado",
-    "text": "3.6 Terminado"
+    "text": "3.6 Terminado\nIndica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.\nNo existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas."
   },
   {
     "objectID": "analytics.html",
@@ -89,5 +89,12 @@
     "title": "4  Analítica",
     "section": "",
     "text": "En esta sección se explicará la analítica"
+  },
+  {
+    "objectID": "tasks.html#tarjeta-de-tareas",
+    "href": "tasks.html#tarjeta-de-tareas",
+    "title": "3  Gestión de tareas",
+    "section": "3.2 Tarjeta de tareas",
+    "text": "3.2 Tarjeta de tareas"
   }
 ]
