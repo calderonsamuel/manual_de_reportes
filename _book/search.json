@@ -60,14 +60,14 @@
     "href": "login.html#inicio-de-sesión",
     "title": "1  Acceso",
     "section": "1.2 Inicio de sesión",
-    "text": "1.2 Inicio de sesión\nPara el acceso, se debe presionar en el botón que indica “Sign in with Google”1.\n\n\n\n\n\nEl sistema hará uso de la cuenta Google que tenga sesión iniciada en el navegador. En caso de que no haya ninguna cuenta con sesión iniciada, aparecerá una ventana flotante en la que se podrá elegir una cuenta para el inicio de sesión. Debe seleccionarse el correo mininter.\n\n\n\n\n\nEn caso no aparezca listado el correo mininter, debe seleccionarse “Usar otra cuenta” e iniciar sesión con las mismas credenciales que se usan para acceder al correo mininter. Después de unos segundos de carga se puede visualizar la siguiente pantalla:"
+    "text": "1.2 Inicio de sesión\nPara el acceso, se debe presionar en el botón que indica “Sign in with Google”1.\n\n\n\n\n\nEl sistema hará uso de la cuenta Google que tenga sesión iniciada en el navegador. En caso de que no haya ninguna cuenta con sesión iniciada, aparecerá una ventana flotante en la que se podrá elegir una cuenta para el inicio de sesión. Debe seleccionarse el correo mininter.\n\n\n\n\n\nEn caso no aparezca listado el correo mininter, debe seleccionarse “Usar otra cuenta” e iniciar sesión con las mismas credenciales que se usan para acceder al correo mininter.\nDespués de unos segundos de carga se puede visualizar la siguiente pantalla:\n\n\n\n\n\nSi el usuario ya cuenta con tareas asignadas, se mostrarán en la pantalla. La cantidad y colores de las tareas asignadas varía según el rol que el usuario tenga en su equipo."
   },
   {
     "objectID": "roles.html",
     "href": "roles.html",
     "title": "2  Roles de equipo",
     "section": "",
-    "text": "Esta sección explicará las diferencias entre roles de equipo"
+    "text": "El aplicativo muestra información en función al rol que el usuario tenga dentro de su equipo. A continuación, se explica"
   },
   {
     "objectID": "login.html#pantalla-de-inicio",
@@ -75,5 +75,61 @@
     "title": "1  Acceso",
     "section": "1.1 Pantalla de inicio",
     "text": "1.1 Pantalla de inicio\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
+  },
+  {
+    "objectID": "tasks.html",
+    "href": "tasks.html",
+    "title": "3  Gestión de tareas",
+    "section": "",
+    "text": "En el ciclo de vida de una tarea existen las siguientes fases:\nEn este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas."
+  },
+  {
+    "objectID": "analytics.html",
+    "href": "analytics.html",
+    "title": "4  Analítica",
+    "section": "",
+    "text": "En esta sección se explicará la analítica"
+  },
+  {
+    "objectID": "tasks.html#pendiente",
+    "href": "tasks.html#pendiente",
+    "title": "3  Gestión de tareas",
+    "section": "3.1 Pendiente",
+    "text": "3.1 Pendiente\nIndica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.\nNo hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano."
+  },
+  {
+    "objectID": "tasks.html#en-proceso",
+    "href": "tasks.html#en-proceso",
+    "title": "3  Gestión de tareas",
+    "section": "3.2 En proceso",
+    "text": "3.2 En proceso\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. Idealmente, cualquier usuario debe tener siempre una tarea en este estado."
+  },
+  {
+    "objectID": "tasks.html#pausado",
+    "href": "tasks.html#pausado",
+    "title": "3  Gestión de tareas",
+    "section": "3.3 Pausado",
+    "text": "3.3 Pausado"
+  },
+  {
+    "objectID": "tasks.html#en-revisión",
+    "href": "tasks.html#en-revisión",
+    "title": "3  Gestión de tareas",
+    "section": "3.4 En revisión",
+    "text": "3.4 En revisión"
+  },
+  {
+    "objectID": "tasks.html#observado",
+    "href": "tasks.html#observado",
+    "title": "3  Gestión de tareas",
+    "section": "3.5 Observado",
+    "text": "3.5 Observado"
+  },
+  {
+    "objectID": "tasks.html#terminado",
+    "href": "tasks.html#terminado",
+    "title": "3  Gestión de tareas",
+    "section": "3.6 Terminado",
+    "text": "3.6 Terminado"
   }
 ]

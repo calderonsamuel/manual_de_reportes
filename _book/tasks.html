@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Samuel Calderon">
 
-<title>Sistema de reporte de avances</title>
+<title>Sistema de reporte de avances - 3&nbsp; Gestión de tareas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,7 +25,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./login.html" rel="next">
+<link href="./analytics.html" rel="next">
+<link href="./roles.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +66,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Sistema de reporte de avances</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Gestión de tareas</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -91,7 +91,7 @@ ul.task-list{list-style: none;}
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Prefacio</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -106,7 +106,7 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tasks.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Gestión de tareas</span></a>
+  <a href="./tasks.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Gestión de tareas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -128,7 +128,12 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Indice de contenidos</h2>
    
   <ul>
-  <li><a href="#prefacio" id="toc-prefacio" class="nav-link active" data-scroll-target="#prefacio">Prefacio</a></li>
+  <li><a href="#pendiente" id="toc-pendiente" class="nav-link active" data-scroll-target="#pendiente"> <span class="header-section-number">3.1</span> Pendiente</a></li>
+  <li><a href="#en-proceso" id="toc-en-proceso" class="nav-link" data-scroll-target="#en-proceso"> <span class="header-section-number">3.2</span> En proceso</a></li>
+  <li><a href="#pausado" id="toc-pausado" class="nav-link" data-scroll-target="#pausado"> <span class="header-section-number">3.3</span> Pausado</a></li>
+  <li><a href="#en-revisión" id="toc-en-revisión" class="nav-link" data-scroll-target="#en-revisión"> <span class="header-section-number">3.4</span> En revisión</a></li>
+  <li><a href="#observado" id="toc-observado" class="nav-link" data-scroll-target="#observado"> <span class="header-section-number">3.5</span> Observado</a></li>
+  <li><a href="#terminado" id="toc-terminado" class="nav-link" data-scroll-target="#terminado"> <span class="header-section-number">3.6</span> Terminado</a></li>
   </ul>
 </nav>
     </div>
@@ -137,19 +142,13 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Sistema de reporte de avances</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Gestión de tareas</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor</div>
-    <div class="quarto-title-meta-contents">
-             <p>Samuel Calderon </p>
-          </div>
-  </div>
     
     
   </div>
@@ -157,21 +156,36 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<section id="prefacio" class="level1 unnumbered">
-<h1 class="unnumbered">Prefacio</h1>
-<p>La Dirección de Control de Drogas y Cultivos Ilegales del Ministerio del Interior ha implementado un sistema informático para la gestión de la información de los avances en las tareas cotidianas y automatización de la generación de reportes.</p>
-<p>Este documento contiene las instrucciones para el uso del sistema informático.</p>
+<p>En el ciclo de vida de una tarea existen las siguientes fases:</p>
 <ul>
-<li>User guide</li>
-<li>Technical documentation</li>
-<li>Instruction manual</li>
-<li>Operational manual</li>
-<li>Training manual</li>
-<li>Quick Start Guide</li>
-<li>Installation manual</li>
-<li>Maintenance manual</li>
-<li>Software manual</li>
+<li>Pendiente</li>
+<li>En proceso</li>
+<li>Pausado</li>
+<li>En revisión</li>
+<li>Observado</li>
+<li>Terminado</li>
 </ul>
+<p>En este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas.</p>
+<section id="pendiente" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="pendiente"><span class="header-section-number">3.1</span> Pendiente</h2>
+<p>Indica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.</p>
+<p>No hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano.</p>
+</section>
+<section id="en-proceso" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="en-proceso"><span class="header-section-number">3.2</span> En proceso</h2>
+<p>Indica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. Idealmente, cualquier usuario debe tener siempre una tarea en este estado.</p>
+</section>
+<section id="pausado" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="pausado"><span class="header-section-number">3.3</span> Pausado</h2>
+</section>
+<section id="en-revisión" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="en-revisión"><span class="header-section-number">3.4</span> En revisión</h2>
+</section>
+<section id="observado" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="observado"><span class="header-section-number">3.5</span> Observado</h2>
+</section>
+<section id="terminado" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="terminado"><span class="header-section-number">3.6</span> Terminado</h2>
 
 
 </section>
@@ -276,10 +290,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./roles.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Roles de equipo</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./login.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Acceso</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./analytics.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Analítica</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
