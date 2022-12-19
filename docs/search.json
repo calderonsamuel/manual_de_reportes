@@ -7,41 +7,6 @@
     "text": "La Dirección de Control de Drogas y Cultivos Ilegales del Ministerio del Interior ha implementado un sistema informático para la gestión de la información de los avances en las tareas cotidianas y automatización de la generación de reportes.\nEste documento contiene las instrucciones para el uso del sistema informático.\n\nUser guide\nTechnical documentation\nInstruction manual\nOperational manual\nTraining manual\nQuick Start Guide\nInstallation manual\nMaintenance manual\nSoftware manual"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Inicio de sesión",
-    "section": "",
-    "text": "El aplicativo se accede vía web. Esto significa que puede accederse en teléfonos, PCs, laptops o cualquier dispositivo que cuente con un navegador."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "intro.html#enlace-del-aplicativo",
-    "href": "intro.html#enlace-del-aplicativo",
-    "title": "1  Inicio de sesión",
-    "section": "1.1 Enlace del aplicativo",
-    "text": "1.1 Enlace del aplicativo\nPara iniciar sesión en el aplicativo se debe acceder al siguiente enlace: https://apps.samuelenrique.com/app_reporte_avance.\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
-  },
-  {
-    "objectID": "intro.html#inicio-de-sesión",
-    "href": "intro.html#inicio-de-sesión",
-    "title": "1  Inicio de sesión",
-    "section": "1.2 Inicio de sesión",
-    "text": "1.2 Inicio de sesión"
-  },
-  {
     "objectID": "login.html",
     "href": "login.html",
     "title": "1  Acceso",
@@ -49,11 +14,11 @@
     "text": "El aplicativo se accede vía web. Esto significa que puede accederse en teléfonos, PCs, laptops o cualquier dispositivo que cuente con un navegador.\nPara iniciar sesión en el aplicativo se debe acceder al siguiente enlace: https://apps.samuelenrique.com/app_reporte_avance."
   },
   {
-    "objectID": "login.html#enlace-del-aplicativo",
-    "href": "login.html#enlace-del-aplicativo",
-    "title": "1  Inicio de sesión",
-    "section": "1.1 Enlace del aplicativo",
-    "text": "1.1 Enlace del aplicativo\nPara iniciar sesión en el aplicativo se debe acceder al siguiente enlace: https://apps.samuelenrique.com/app_reporte_avance.\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
+    "objectID": "login.html#pantalla-de-inicio",
+    "href": "login.html#pantalla-de-inicio",
+    "title": "1  Acceso",
+    "section": "1.1 Pantalla de inicio",
+    "text": "1.1 Pantalla de inicio\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
   },
   {
     "objectID": "login.html#inicio-de-sesión",
@@ -70,25 +35,11 @@
     "text": "El aplicativo muestra información en función al rol que el usuario tenga dentro de su equipo. A continuación, se explica"
   },
   {
-    "objectID": "login.html#pantalla-de-inicio",
-    "href": "login.html#pantalla-de-inicio",
-    "title": "1  Acceso",
-    "section": "1.1 Pantalla de inicio",
-    "text": "1.1 Pantalla de inicio\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
-  },
-  {
     "objectID": "tasks.html",
     "href": "tasks.html",
     "title": "3  Gestión de tareas",
     "section": "",
     "text": "En el ciclo de vida de una tarea existen las siguientes fases:\nEn este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas."
-  },
-  {
-    "objectID": "analytics.html",
-    "href": "analytics.html",
-    "title": "4  Analítica",
-    "section": "",
-    "text": "En esta sección se explicará la analítica"
   },
   {
     "objectID": "tasks.html#pendiente",
@@ -102,28 +53,28 @@
     "href": "tasks.html#en-proceso",
     "title": "3  Gestión de tareas",
     "section": "3.2 En proceso",
-    "text": "3.2 En proceso\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. Idealmente, cualquier usuario debe tener siempre una tarea en este estado."
+    "text": "3.2 En proceso\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso.\nIdealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra."
   },
   {
     "objectID": "tasks.html#pausado",
     "href": "tasks.html#pausado",
     "title": "3  Gestión de tareas",
     "section": "3.3 Pausado",
-    "text": "3.3 Pausado"
+    "text": "3.3 Pausado\nIndica que la tarea tiene algún tipo de progreso pero el usuario NO está activamente trabajando para añadirle más progreso. Debe usarse cuando es necesario esperar trabajo de otras personas para progresar en la tarea o cuando una tarea más urgente es añadida, aplazando el cumplimiento de la actual.\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que la tarea podría haber sido dividida en varias partes."
   },
   {
     "objectID": "tasks.html#en-revisión",
     "href": "tasks.html#en-revisión",
     "title": "3  Gestión de tareas",
     "section": "3.4 En revisión",
-    "text": "3.4 En revisión"
+    "text": "3.4 En revisión\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada. En esta fase, el usuario responsable de equipo debe dar el visto bueno para la finalización de la tarea.\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información."
   },
   {
     "objectID": "tasks.html#observado",
     "href": "tasks.html#observado",
     "title": "3  Gestión de tareas",
     "section": "3.5 Observado",
-    "text": "3.5 Observado"
+    "text": "3.5 Observado\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada"
   },
   {
     "objectID": "tasks.html#terminado",
@@ -131,5 +82,12 @@
     "title": "3  Gestión de tareas",
     "section": "3.6 Terminado",
     "text": "3.6 Terminado"
+  },
+  {
+    "objectID": "analytics.html",
+    "href": "analytics.html",
+    "title": "4  Analítica",
+    "section": "",
+    "text": "En esta sección se explicará la analítica"
   }
 ]
