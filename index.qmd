@@ -4,6 +4,7 @@ La Dirección de Control de Drogas y Cultivos Ilegales del Ministerio del Interi
 
 Este documento contiene las instrucciones para el uso del sistema informático.
 
+<!---
 - User guide
 - Technical documentation
 - Instruction manual
@@ -13,4 +14,4 @@ Este documento contiene las instrucciones para el uso del sistema informático.
 - Installation manual
 - Maintenance manual
 - Software manual
-
+--->
