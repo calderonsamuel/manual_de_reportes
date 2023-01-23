@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Sistema de reporte de avances - 2&nbsp; Gestión de tareas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<link href="./login.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Gestión de tareas</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Sistema de reporte de avances</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Prefacio</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./login.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Acceso</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Gestión de tareas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#sec-ciclo-de-vida" id="toc-sec-ciclo-de-vida" class="nav-link active" data-scroll-target="#sec-ciclo-de-vida"><span class="toc-section-number">2.1</span>  Ciclo de vida</a>
+  <ul class="collapse">
+  <li><a href="#pendiente" id="toc-pendiente" class="nav-link" data-scroll-target="#pendiente"><span class="toc-section-number">2.1.1</span>  Pendiente</a></li>
+  <li><a href="#en-proceso" id="toc-en-proceso" class="nav-link" data-scroll-target="#en-proceso"><span class="toc-section-number">2.1.2</span>  En proceso</a></li>
+  <li><a href="#pausado" id="toc-pausado" class="nav-link" data-scroll-target="#pausado"><span class="toc-section-number">2.1.3</span>  Pausado</a></li>
+  <li><a href="#en-revisión" id="toc-en-revisión" class="nav-link" data-scroll-target="#en-revisión"><span class="toc-section-number">2.1.4</span>  En revisión</a></li>
+  <li><a href="#observado" id="toc-observado" class="nav-link" data-scroll-target="#observado"><span class="toc-section-number">2.1.5</span>  Observado</a></li>
+  <li><a href="#terminado" id="toc-terminado" class="nav-link" data-scroll-target="#terminado"><span class="toc-section-number">2.1.6</span>  Terminado</a></li>
+  </ul></li>
+  <li><a href="#creación-de-nueva-tarea" id="toc-creación-de-nueva-tarea" class="nav-link" data-scroll-target="#creación-de-nueva-tarea"><span class="toc-section-number">2.2</span>  Creación de nueva tarea</a>
+  <ul class="collapse">
+  <li><a href="#título-de-tarea" id="toc-título-de-tarea" class="nav-link" data-scroll-target="#título-de-tarea"><span class="toc-section-number">2.2.1</span>  Título de tarea</a></li>
+  <li><a href="#descripción-de-tarea" id="toc-descripción-de-tarea" class="nav-link" data-scroll-target="#descripción-de-tarea"><span class="toc-section-number">2.2.2</span>  Descripción de tarea</a></li>
+  <li><a href="#sec-meta" id="toc-sec-meta" class="nav-link" data-scroll-target="#sec-meta"><span class="toc-section-number">2.2.3</span>  Meta</a></li>
+  <li><a href="#sec-unidad-de-medida" id="toc-sec-unidad-de-medida" class="nav-link" data-scroll-target="#sec-unidad-de-medida"><span class="toc-section-number">2.2.4</span>  Unidad de medida</a></li>
+  <li><a href="#plazo-máximo" id="toc-plazo-máximo" class="nav-link" data-scroll-target="#plazo-máximo"><span class="toc-section-number">2.2.5</span>  Plazo máximo</a></li>
+  <li><a href="#encargado" id="toc-encargado" class="nav-link" data-scroll-target="#encargado"><span class="toc-section-number">2.2.6</span>  Encargado</a></li>
+  </ul></li>
+  <li><a href="#gestión-de-progreso-de-tareas" id="toc-gestión-de-progreso-de-tareas" class="nav-link" data-scroll-target="#gestión-de-progreso-de-tareas"><span class="toc-section-number">2.3</span>  Gestión de progreso de tareas</a>
+  <ul class="collapse">
+  <li><a href="#tarjeta-de-tarea" id="toc-tarjeta-de-tarea" class="nav-link" data-scroll-target="#tarjeta-de-tarea"><span class="toc-section-number">2.3.1</span>  Tarjeta de tarea</a></li>
+  <li><a href="#avanzar" id="toc-avanzar" class="nav-link" data-scroll-target="#avanzar"><span class="toc-section-number">2.3.2</span>  Avanzar</a></li>
+  <li><a href="#editar" id="toc-editar" class="nav-link" data-scroll-target="#editar"><span class="toc-section-number">2.3.3</span>  Editar</a></li>
+  <li><a href="#ver-historia" id="toc-ver-historia" class="nav-link" data-scroll-target="#ver-historia"><span class="toc-section-number">2.3.4</span>  Ver historia</a></li>
+  <li><a href="#eliminar" id="toc-eliminar" class="nav-link" data-scroll-target="#eliminar"><span class="toc-section-number">2.3.5</span>  Eliminar</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Gestión de tareas</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="sec-ciclo-de-vida" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sec-ciclo-de-vida"><span class="header-section-number">2.1</span> Ciclo de vida</h2>
+<p>En el ciclo de vida de una tarea existen las siguientes fases:</p>
+<ul>
+<li>Pendiente</li>
+<li>En proceso</li>
+<li>Pausado</li>
+<li>En revisión</li>
+<li>Observado</li>
+<li>Terminado</li>
+</ul>
+<p>En este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas.</p>
+<section id="pendiente" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="pendiente"><span class="header-section-number">2.1.1</span> Pendiente</h3>
+<p>Indica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.</p>
+<p>No hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano.</p>
+</section>
+<section id="en-proceso" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="en-proceso"><span class="header-section-number">2.1.2</span> En proceso</h3>
+<p>Indica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. En esta fase la tarea necesita aún avances significativos.</p>
+<p>Idealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra.</p>
+</section>
+<section id="pausado" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="pausado"><span class="header-section-number">2.1.3</span> Pausado</h3>
+<p>Indica que la tarea tiene algún tipo de progreso pero el usuario NO está activamente trabajando para añadirle más progreso. Debe usarse cuando es necesario esperar trabajo de otras personas para progresar en la tarea o cuando una tarea más urgente es añadida, aplazando el cumplimiento de la actual.</p>
+<p>No existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que la tarea podría haber sido dividida en varias partes.</p>
+</section>
+<section id="en-revisión" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="en-revisión"><span class="header-section-number">2.1.4</span> En revisión</h3>
+<p>Indica que la tarea tiene progreso suficiente como para ser considerada como terminada. El cambio de fase de la tarea se encuentra a manos del responsable de equipo.</p>
+<p>Si la tarea:</p>
+<ul>
+<li>Está adecuadamente concluida, debe darse por “Terminada”</li>
+<li>Requiere cambios mínimos -típicamente de forma- para considerarse concluida, debe indicarse como “Observada”</li>
+<li>Requiere cambios sustanciales para considerarse concluida, debe indicarse como “En proceso”.</li>
+</ul>
+<p>No existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información.</p>
+</section>
+<section id="observado" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="observado"><span class="header-section-number">2.1.5</span> Observado</h3>
+<p>Indica que la tarea tiene progreso suficiente como para ser considerada como terminada pero necesita cambios mínimos antes de darla por finalizada. Generalmente estos cambios están referidos a correcciones de formato, ortografía, puntuación y otros relacionados. Una vez finalizada la corrección debe volver a reportarse como “En revisión”.</p>
+<p>No existe límite respecto al número de tareas que pueden tener este estado. Si una misma tarea es observada múltiples veces significa que la retroalimentación por parte del responsable de equipo no está siendo consistente o que el usuario no está tomando en cuenta la retroalimentación en su totalidad.</p>
+</section>
+<section id="terminado" class="level3" data-number="2.1.6">
+<h3 data-number="2.1.6" class="anchored" data-anchor-id="terminado"><span class="header-section-number">2.1.6</span> Terminado</h3>
+<p>Indica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.</p>
+<p>No existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas.</p>
+</section>
+</section>
+<section id="creación-de-nueva-tarea" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="creación-de-nueva-tarea"><span class="header-section-number">2.2</span> Creación de nueva tarea</h2>
+<p>Para crear una nueva tarea, se debe hacer click en …</p>
+<p>Nos aparecerá una ventana en la que podemos llenar información de la tarea. A continuación se explica el contenido de cada campo.</p>
+<section id="título-de-tarea" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="título-de-tarea"><span class="header-section-number">2.2.1</span> Título de tarea</h3>
+<p>El título de tarea es la información principal a visualizar. Brinda una idea general de la tarea que se busca completar. Al redactar el título debe buscarse mantenerlo corto pero lo suficientemente claro para no confundirlo con otras tareas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-task-title.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="descripción-de-tarea" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="descripción-de-tarea"><span class="header-section-number">2.2.2</span> Descripción de tarea</h3>
+<p>La descripción de tarea brinda mayor detalle acerca del contenido, metodología o fuentes a utilizar para completar la tarea. Dentro de este campo es posible explayarse para brindar mayor especificidad a la tarea.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-task-description.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="sec-meta" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="sec-meta"><span class="header-section-number">2.2.3</span> Meta</h3>
+<p>La meta es un número que indica la cantidad de algo que se desea obtener como resultado de la tarea. Su existencia va de la mano con la <a href="#sec-unidad-de-medida">unidad de medida</a>. Dependiendo de lo que esté midiendo puede aceptar números decimales.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-task-goal.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="sec-unidad-de-medida" class="level3" data-number="2.2.4">
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="sec-unidad-de-medida"><span class="header-section-number">2.2.4</span> Unidad de medida</h3>
+<p>Es el resultado o producto medible que se espera obtener. Cuando su <a href="#sec-meta">meta</a> es uno (1) permite verificar si la tarea se cumplió o no. Cuando la meta es mayor a uno (1) puede permitir el seguimiento progresivo de la tarea.</p>
+<p>Por defecto, se espera que las tareas produzcan un informe. Sin embargo, las opciones de unidad de medida disponibles deben ser personalizadas de acuerdo al trabajo que se realiza en el equipo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-task-unit.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="plazo-máximo" class="level3" data-number="2.2.5">
+<h3 data-number="2.2.5" class="anchored" data-anchor-id="plazo-máximo"><span class="header-section-number">2.2.5</span> Plazo máximo</h3>
+<p>Establece una fecha y hora límites para el cumplimiento de la tarea. Respecto a la hora límite, es posible escogerla en el rango de las 8:00 hasta las 18:45. Por defecto, el sistema establece el día siguiente a la fecha de creación de la tarea.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-task-timedue.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="encargado" class="level3" data-number="2.2.6">
+<h3 data-number="2.2.6" class="anchored" data-anchor-id="encargado"><span class="header-section-number">2.2.6</span> Encargado</h3>
+<p>Indica el nombre de la persona responsable del cumplimiento de la tarea. Un usuario básico solo puede escoger su nombre, pero un usuario responsable de equipo puede asignarle tareas a otras personas dentro de su equipo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-task-assignee.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="gestión-de-progreso-de-tareas" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="gestión-de-progreso-de-tareas"><span class="header-section-number">2.3</span> Gestión de progreso de tareas</h2>
+<p>Cada tarea asignada es convertida en una tarjeta dentro de la plataforma.</p>
+<section id="tarjeta-de-tarea" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="tarjeta-de-tarea"><span class="header-section-number">2.3.1</span> Tarjeta de tarea</h3>
+<p>Al iniciar la aplicación, todas las tarjetas inician en un estado cerrado, en la que solo es posible ver el título de la tarea y su fecha límite. Todas las tareas recién creadas aparecen en la columna de “Pendientes”.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/task-closed.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>El color de la etiqueta en la que aparece la fecha límite variará según qué tan cerca se esté de ella al momento de ver la tarjeta:</p>
+<ul>
+<li><p>Verde: Hasta el día previo de la fecha límite</p></li>
+<li><p>Amarillo: El día de fecha límite</p></li>
+<li><p>Rojo: Desde un día después de la fecha límite</p></li>
+</ul>
+<p>De esta manera se puede hacer un seguimiento rápido a las tareas que sean más urgentes.</p>
+<p>Al hacer click en el botón <code>+</code> la tarjeta mostrará información extra de la tarea.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/task-open.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>La información extra incluye la descripción, el nombre de la persona responsable, la hora límite, y el avance de acuerdo a la meta objetivo. Cuando la tarea fue asignada por otra persona, el símbolo de pulgar arriba indicará el nombre de la persona que asignó la tarea.</p>
+<p>Al presionar sobre el símbolo de menú (<code>…</code>) se obtienen opciones de acción para la gestión de la tarea.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/task-menu.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="avanzar" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="avanzar"><span class="header-section-number">2.3.2</span> Avanzar</h3>
+<p>Permite avanzar en el <a href="#sec-ciclo-de-vida">ciclo de vida</a> de la tarea. Inicialmente la tarea tiene un estado “Pendiente”, pero con esta opción podemos registrar algún tipo de progreso. Darle click en “Avanzar” abre una ventana que modifica el estado de la tarea.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/task-progress.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Las opciones para elegir el nuevo estado de la tarea dependerán del estado actual de la tarea. Por ejemplo, desde “Pendiente” es posible indicar que la tarea está “En proceso” o “En revisión”.</p>
+<p>El avance actual indica cuánto se ha avanzado de la <a href="#sec-meta">meta</a>, debe reportarse numéricamente. Se indica la unidad de medida como guía. No será posible indicar un numero de progreso mayor a la meta establecida.</p>
+<p>Por último, el campo “Detalles” permite brindar información extra sobre el progreso reportado, como señalar coordinaciones, revisiones o cumplimientos parciales. Si está resultando difícil completar los plazos establecidos, pueden indicarse razones en esta celda.</p>
+<p>Una vez guardado el progreso, la tarjeta de tarea aparecerá en la columna correspondiente al nuevo estado.</p>
+</section>
+<section id="editar" class="level3" data-number="2.3.3">
+<h3 data-number="2.3.3" class="anchored" data-anchor-id="editar"><span class="header-section-number">2.3.3</span> Editar</h3>
+<p>Permite cambiar el título o descripción de la tarea. Utilizarlo en caso de que la redacción de alguno de ellos ya no resulte satisfactoria.</p>
+</section>
+<section id="ver-historia" class="level3" data-number="2.3.4">
+<h3 data-number="2.3.4" class="anchored" data-anchor-id="ver-historia"><span class="header-section-number">2.3.4</span> Ver historia</h3>
+<p>Permite ver todos los reportes de progreso reportados en esta tarea. Indica la fecha y hora de reporte, persona que reportó, avance de la meta y el detalle indicado.</p>
+</section>
+<section id="eliminar" class="level3" data-number="2.3.5">
+<h3 data-number="2.3.5" class="anchored" data-anchor-id="eliminar"><span class="header-section-number">2.3.5</span> Eliminar</h3>
+<p>Permite eliminar la tarea seleccionada. Debe aplicarse solo en caso de errores diferentes a la redacción del título y descripción. Un cuadro de diálogo pedirá confirmación de esta acción.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./login.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Acceso</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
