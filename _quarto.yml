@@ -23,6 +23,9 @@ format:
     fig-align: center
   pdf:
     documentclass: scrreprt
+    
+execute:
+  freeze: auto
 
 
 
