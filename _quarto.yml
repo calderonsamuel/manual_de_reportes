@@ -8,9 +8,9 @@ book:
   chapters:
     - index.qmd
     - login.qmd
-    - roles.qmd
+    # - roles.qmd
     - tasks.qmd
-    - analytics.qmd
+    # - analytics.qmd
     - references.qmd
 
 bibliography: references.bib

@@ -29,7 +29,7 @@ En caso no aparezca listado el correo mininter, debe seleccionarse "Usar otra cu
 
 Después de unos segundos de carga se puede visualizar la siguiente pantalla:
 
-![](img/board-empty.png){fig-aling="center"}
+![](img/board-empty.png){fig-align="center"}
 
 Si el usuario ya cuenta con tareas asignadas, se mostrarán en la pantalla. La cantidad y colores de las tareas asignadas varía según el rol que el usuario tenga en su equipo.
 
