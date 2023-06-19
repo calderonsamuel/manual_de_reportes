@@ -1,0 +1,54 @@
+# Ciclo de vida de una tarea { .appendix}
+
+En el ciclo de vida de una tarea existen las siguientes fases:
+
+-   Pendiente
+-   En proceso
+-   Pausado
+-   En revisión
+-   Observado
+-   Terminado
+
+En este capítulo se explica qué características tiene cada fase. Un adecuado conocimiento de este ciclo de vida permitirá a los usuarios generar información valiosa acerca de los tiempos necesarios para el cumplimiento de sus tareas.
+
+## Pendiente
+
+Indica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.
+
+No hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano.
+
+## En proceso
+
+Indica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. En esta fase la tarea necesita aún avances significativos.
+
+Idealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea "En proceso" cambia de estado, debe ser reemplazada por otra.
+
+## Pausado
+
+Indica que la tarea tiene algún tipo de progreso pero el usuario NO está activamente trabajando para añadirle más progreso. Debe usarse cuando es necesario esperar trabajo de otras personas para progresar en la tarea o cuando una tarea más urgente es añadida, aplazando el cumplimiento de la actual.
+
+No existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que la tarea podría haber sido dividida en varias partes.
+
+## En revisión
+
+Indica que la tarea tiene progreso suficiente como para ser considerada como terminada. El cambio de fase de la tarea se encuentra a manos del responsable de equipo.
+
+Si la tarea:
+
+-   Está adecuadamente concluida, debe darse por "Terminada"
+-   Requiere cambios mínimos -típicamente de forma- para considerarse concluida, debe indicarse como "Observada"
+-   Requiere cambios sustanciales para considerarse concluida, debe indicarse como "En proceso".
+
+No existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información.
+
+## Observado
+
+Indica que la tarea tiene progreso suficiente como para ser considerada como terminada pero necesita cambios mínimos antes de darla por finalizada. Generalmente estos cambios están referidos a correcciones de formato, ortografía, puntuación y otros relacionados. Una vez finalizada la corrección debe volver a reportarse como "En revisión".
+
+No existe límite respecto al número de tareas que pueden tener este estado. Si una misma tarea es observada múltiples veces significa que la retroalimentación por parte del responsable de equipo no está siendo consistente o que el usuario no está tomando en cuenta la retroalimentación en su totalidad.
+
+## Terminado
+
+Indica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.
+
+No existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas.

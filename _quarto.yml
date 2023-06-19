@@ -7,11 +7,11 @@ book:
   author: "Samuel Calderon"
   chapters:
     - index.qmd
-    - login.qmd
-    # - roles.qmd
-    - tasks.qmd
-    # - analytics.qmd
+    - chap-login/index.qmd
+    - chap-user/index.qmd
     - references.qmd
+  appendices: 
+    - chap-appendix/index.qmd
 
 bibliography: references.bib
 

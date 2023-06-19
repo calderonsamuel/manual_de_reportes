@@ -1,3 +1,0 @@
-# Roles de equipo
-
-El aplicativo muestra información en función al rol que el usuario tenga dentro de su equipo. A continuación, se explica 
