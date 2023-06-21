@@ -2,47 +2,54 @@
 
 ## Creación de nueva tarea
 
-Para crear una nueva tarea, se debe hacer click en ...
+La creación de una nueva tarea se hace desde el menú de la columna "Pendiente". Se debe hacer click en el botón `...` y escoger el item "Nueva tarea".
+
+![](img/pending-menu.png){fig-align="center" width="400px"}
 
 Nos aparecerá una ventana en la que podemos llenar información de la tarea. A continuación se explica el contenido de cada campo.
 
 ### Título de tarea
 
-El título de tarea es la información principal a visualizar. Brinda una idea general de la tarea que se busca completar. Al redactar el título debe buscarse mantenerlo corto pero lo suficientemente claro para no confundirlo con otras tareas.
+El título de tarea es la información principal a visualizar. Brinda una idea general de la tarea que se busca completar. Al redactar el título debe buscarse mantenerlo corto pero lo suficientemente claro para no confundirlo con otras tareas. 
 
-![](img/new-task-title.png){fig-align="center"}
+Puede tener como máximo 250 caracteres. 
+
+![](img/new-task-title.png){fig-align="center" width="400px"}
 
 ### Descripción de tarea
 
 La descripción de tarea brinda mayor detalle acerca del contenido, metodología o fuentes a utilizar para completar la tarea. Dentro de este campo es posible explayarse para brindar mayor especificidad a la tarea.
 
-![](img/new-task-description.png){fig-align="center"}
+Puede tener como máximo 500 caracteres.
 
-### Meta {#sec-meta}
+![](img/new-task-description.png){fig-align="center" width="400px"}
 
-La meta es un número que indica la cantidad de algo que se desea obtener como resultado de la tarea. Su existencia va de la mano con la [unidad de medida](#sec-unidad-de-medida). Dependiendo de lo que esté midiendo puede aceptar números decimales.
+## Proceso
 
-![](img/new-task-goal.png){fig-align="center"}
+Es un conjunto de actividades llevadas a cabo para alcanzar algún fin en particular. En el contexto de la gestión de tareas, sirve para agrupar distintas unidades de medida que aportan en un fin común o una tarea mayor, vinculada a algún producto de la unidad funcional.
+
+![](img/new-task-process.png){fig-align="center" width="400px"}
+
 
 ### Unidad de medida {#sec-unidad-de-medida}
 
-Es el resultado o producto medible que se espera obtener. Cuando su [meta](#sec-meta) es uno (1) permite verificar si la tarea se cumplió o no. Cuando la meta es mayor a uno (1) puede permitir el seguimiento progresivo de la tarea.
+Es el producto o evidencia medible de que la tarea se ha completado. Cuando la tarea se marque como terminada, aumentará una unidad en el contador de producción para la unidad de medida escogida.
 
 Por defecto, se espera que las tareas produzcan un informe. Sin embargo, las opciones de unidad de medida disponibles deben ser personalizadas de acuerdo al trabajo que se realiza en el equipo.
 
-![](img/new-task-unit.png){fig-align="center"}
+![](img/new-task-unit.png){fig-align="center" width="400px"}
 
 ### Plazo máximo
 
 Establece una fecha y hora límites para el cumplimiento de la tarea. Respecto a la hora límite, es posible escogerla en el rango de las 8:00 hasta las 18:45. Por defecto, el sistema establece el día siguiente a la fecha de creación de la tarea.
 
-![](img/new-task-timedue.png){fig-align="center"}
+![](img/new-task-timedue.png){fig-align="center" width="400px"}
 
 ### Encargado
 
 Indica el nombre de la persona responsable del cumplimiento de la tarea. Un usuario básico solo puede escoger su nombre, pero un usuario responsable de equipo puede asignarle tareas a otras personas dentro de su equipo.
 
-![](img/new-task-assignee.png){fig-align="center"}
+![](img/new-task-assignee.png){fig-align="center" width="400px"}
 
 ## Gestión de progreso de tareas
 
@@ -52,7 +59,7 @@ Cada tarea asignada es convertida en una tarjeta dentro de la plataforma.
 
 Al iniciar la aplicación, todas las tarjetas inician en un estado cerrado, en la que solo es posible ver el título de la tarea y su fecha límite. Todas las tareas recién creadas aparecen en la columna de "Pendientes".
 
-![](img/task-closed.png){fig-align="center"}
+![](img/task-closed.png){fig-align="center" width="400px"}
 
 El color de la etiqueta en la que aparece la fecha límite variará según qué tan cerca se esté de ella al momento de ver la tarjeta:
 
@@ -66,23 +73,21 @@ De esta manera se puede hacer un seguimiento rápido a las tareas que sean más 
 
 Al hacer click en el botón `+` la tarjeta mostrará información extra de la tarea.
 
-![](img/task-open.png){fig-align="center"}
+![](img/task-open.png){fig-align="center" width="400px"}
 
-La información extra incluye la descripción, el nombre de la persona responsable, la hora límite, y el avance de acuerdo a la meta objetivo. Cuando la tarea fue asignada por otra persona, el símbolo de pulgar arriba indicará el nombre de la persona que asignó la tarea.
+La información extra incluye la descripción, el nombre de la persona responsable, la hora límite y la unidad de medida establecida.La parte inferior de la tarjeta muestra la fecha y hora de creación, así como la persona que asignó la tarea.
 
 Al presionar sobre el símbolo de menú (`…`) se obtienen opciones de acción para la gestión de la tarea.
 
-![](img/task-menu.png){fig-align="center"}
+![](img/task-menu.png){fig-align="center" width="400px"}
 
 ### Avanzar
 
 Permite avanzar en el [ciclo de vida](#sec-ciclo-de-vida) de la tarea. Inicialmente la tarea tiene un estado "Pendiente", pero con esta opción podemos registrar algún tipo de progreso. Darle click en "Avanzar" abre una ventana que modifica el estado de la tarea.
 
-![](img/task-progress.png){fig-align="center"}
+![](img/task-progress.png){fig-align="center" width="400px"}
 
 Las opciones para elegir el nuevo estado de la tarea dependerán del estado actual de la tarea. Por ejemplo, desde "Pendiente" es posible indicar que la tarea está "En proceso" o "En revisión".
-
-El avance actual indica cuánto se ha avanzado de la [meta](#sec-meta), debe reportarse numéricamente. Se indica la unidad de medida como guía. No será posible indicar un numero de progreso mayor a la meta establecida.
 
 Por último, el campo "Detalles" permite brindar información extra sobre el progreso reportado, como señalar coordinaciones, revisiones o cumplimientos parciales. Si está resultando difícil completar los plazos establecidos, pueden indicarse razones en esta celda.
 
@@ -90,12 +95,20 @@ Una vez guardado el progreso, la tarjeta de tarea aparecerá en la columna corre
 
 ### Editar
 
-Permite cambiar el título o descripción de la tarea. Utilizarlo en caso de que la redacción de alguno de ellos ya no resulte satisfactoria.
+Permite cambiar el título o descripción de la tarea. Utilizarlo en caso de que la redacción de alguno de ellos ya no resulte satisfactoria o sea necesario actualizar la fecha límite de entrega. 
+
+![](img/task-edit.png){fig-align="center" width="400px"}
+
+Cada edición genera una entrada en el historial de la tarea.
 
 ### Ver historia
 
-Permite ver todos los reportes de progreso reportados en esta tarea. Indica la fecha y hora de reporte, persona que reportó, avance de la meta y el detalle indicado.
+Permite ver todos los reportes de progreso reportados en esta tarea o sus ediciones. Indica la fecha y hora de reporte, persona que reportó, estado de la tarea y el detalle provisto.
+
+![](img/task-history.png){fig-align="center" width="600px"}
 
 ### Eliminar
 
 Permite eliminar la tarea seleccionada. Debe aplicarse solo en caso de errores diferentes a la redacción del título y descripción. Un cuadro de diálogo pedirá confirmación de esta acción.
+
+![](img/task-delete.png){fig-align="center" width="400px"}

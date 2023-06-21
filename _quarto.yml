@@ -9,7 +9,7 @@ book:
     - index.qmd
     - chap-login/index.qmd
     - chap-user/index.qmd
-    - references.qmd
+    # - references.qmd
   appendices: 
     - chap-appendix/index.qmd
 
@@ -23,7 +23,8 @@ format:
     fig-align: center
   pdf:
     documentclass: scrreprt
-    
+  docx: default  
+  
 execute:
   freeze: auto
 

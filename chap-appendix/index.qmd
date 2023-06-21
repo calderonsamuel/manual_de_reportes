@@ -1,4 +1,4 @@
-# Ciclo de vida de una tarea { .appendix}
+# Ciclo de vida de una tarea {#sec-ciclo-de-vida .appendix}
 
 En el ciclo de vida de una tarea existen las siguientes fases:
 
