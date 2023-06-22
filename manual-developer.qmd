@@ -1,0 +1,14 @@
+# Manual de desarrollador
+
+## Tecnología base
+
+### Firebase
+
+### Base de datos
+
+### Paquete R
+
+### Deploy
+
+## Ejecutar como contenedor de Docker
+

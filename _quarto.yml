@@ -7,11 +7,11 @@ book:
   author: "Samuel Calderon"
   chapters:
     - index.qmd
-    - chap-login/index.qmd
-    - chap-user/index.qmd
+    - manual-user.qmd
+    - manual-admin.qmd
     # - references.qmd
   appendices: 
-    - chap-appendix/index.qmd
+    - zzz-task-lifecycle.qmd
 
 bibliography: references.bib
 
