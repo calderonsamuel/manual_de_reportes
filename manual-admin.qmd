@@ -2,17 +2,16 @@
 
 ## Gestión de miembros de equipo
 
-
+Poner cómo luce el panel de gestión de miembros de equipo, cómo añadir, editar y eliminar.
 
 ## Gestión de procesos
 
-
+Poner cómo luce el panel de gestión de procesos, cómo añadir, editar y eliminar.
 
 ## Gestión de unidades de medida
 
-
+Poner cómo luce el panel de gestión de unidades de medida, cómo añadir, editar y eliminar.
 
 ## Descarga de reportes
 
-
-
+Poner cómo luce el panel de descarga de reportes, cómo añadir y archivar.
