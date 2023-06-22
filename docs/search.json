@@ -7,90 +7,6 @@
     "text": "Prefacio\nLa Dirección de Control de Drogas y Cultivos Ilegales del Ministerio del Interior ha implementado un sistema informático para la gestión de la información de los avances en las tareas cotidianas y automatización de la generación de reportes.\nEste documento contiene las instrucciones para el uso del sistema informático.\nSi estás viendo este manual desde una computadora, el menú izquierdo permite acceder a diferentes capítulos del manual. Desde un teléfono, este menú se encuentra en la parte superior."
   },
   {
-    "objectID": "chap-login/index.html#pantalla-de-inicio",
-    "href": "chap-login/index.html#pantalla-de-inicio",
-    "title": "1  Acceso",
-    "section": "1.1 Pantalla de inicio",
-    "text": "1.1 Pantalla de inicio\nDespués de unos segundos de carga, obtendremos una pantalla de inicio de sesión. Desde una computadora, esta pantalla luce así:\n\nDependiendo del dispositivo desde el que ingresemos, la distribución de los elementos puede variar. Por ejemplo, desde un teléfono la vista es diferente."
-  },
-  {
-    "objectID": "chap-login/index.html#inicio-de-sesión",
-    "href": "chap-login/index.html#inicio-de-sesión",
-    "title": "1  Acceso",
-    "section": "1.2 Inicio de sesión",
-    "text": "1.2 Inicio de sesión\nPara el acceso, se debe presionar en el botón que indica “Sign in with Google”1.\n\n\n\n\n\nEl sistema hará uso de la cuenta Google que tenga sesión iniciada en el navegador. En caso de que no haya ninguna cuenta con sesión iniciada, aparecerá una ventana flotante en la que se podrá elegir una cuenta para el inicio de sesión. Debe seleccionarse el correo mininter.\n\n\n\n\n\nEn caso no aparezca listado el correo mininter, debe seleccionarse “Usar otra cuenta” e iniciar sesión con las mismas credenciales que se usan para acceder al correo mininter.\nDespués de unos segundos de carga se puede visualizar la siguiente pantalla:\n\n\n\n\n\nSi el usuario ya cuenta con tareas asignadas, se mostrarán en la pantalla. La cantidad y colores de las tareas asignadas varía según el rol que el usuario tenga en su equipo."
-  },
-  {
-    "objectID": "chap-login/index.html#footnotes",
-    "href": "chap-login/index.html#footnotes",
-    "title": "1  Acceso",
-    "section": "",
-    "text": "En caso de que el navegador se encuentre con traducción al español, el texto dirá “Inicia sesión con Google”.↩︎"
-  },
-  {
-    "objectID": "chap-user/index.html#creación-de-nueva-tarea",
-    "href": "chap-user/index.html#creación-de-nueva-tarea",
-    "title": "2  Manual de usuario",
-    "section": "2.1 Creación de nueva tarea",
-    "text": "2.1 Creación de nueva tarea\nLa creación de una nueva tarea se hace desde el menú de la columna “Pendiente”. Se debe hacer click en el botón ... y escoger el item “Nueva tarea”.\n\n\n\n\n\nNos aparecerá una ventana en la que podemos llenar información de la tarea. A continuación se explica el contenido de cada campo.\n\n2.1.1 Título de tarea\nEl título de tarea es la información principal a visualizar. Brinda una idea general de la tarea que se busca completar. Al redactar el título debe buscarse mantenerlo corto pero lo suficientemente claro para no confundirlo con otras tareas.\nPuede tener como máximo 250 caracteres.\n\n\n\n\n\n\n\n2.1.2 Descripción de tarea\nLa descripción de tarea brinda mayor detalle acerca del contenido, metodología o fuentes a utilizar para completar la tarea. Dentro de este campo es posible explayarse para brindar mayor especificidad a la tarea.\nPuede tener como máximo 500 caracteres."
-  },
-  {
-    "objectID": "chap-user/index.html#proceso",
-    "href": "chap-user/index.html#proceso",
-    "title": "2  Manual de usuario",
-    "section": "2.2 Proceso",
-    "text": "2.2 Proceso\nEs un conjunto de actividades llevadas a cabo para alcanzar algún fin en particular. En el contexto de la gestión de tareas, sirve para agrupar distintas unidades de medida que aportan en un fin común o una tarea mayor, vinculada a algún producto de la unidad funcional.\n\n\n\n\n\n\n2.2.1 Unidad de medida\nEs el producto o evidencia medible de que la tarea se ha completado. Cuando la tarea se marque como terminada, aumentará una unidad en el contador de producción para la unidad de medida escogida.\nPor defecto, se espera que las tareas produzcan un informe. Sin embargo, las opciones de unidad de medida disponibles deben ser personalizadas de acuerdo al trabajo que se realiza en el equipo.\n\n\n\n\n\n\n\n2.2.2 Plazo máximo\nEstablece una fecha y hora límites para el cumplimiento de la tarea. Respecto a la hora límite, es posible escogerla en el rango de las 8:00 hasta las 18:45. Por defecto, el sistema establece el día siguiente a la fecha de creación de la tarea.\n\n\n\n\n\n\n\n2.2.3 Encargado\nIndica el nombre de la persona responsable del cumplimiento de la tarea. Un usuario básico solo puede escoger su nombre, pero un usuario responsable de equipo puede asignarle tareas a otras personas dentro de su equipo."
-  },
-  {
-    "objectID": "chap-user/index.html#gestión-de-progreso-de-tareas",
-    "href": "chap-user/index.html#gestión-de-progreso-de-tareas",
-    "title": "2  Manual de usuario",
-    "section": "2.3 Gestión de progreso de tareas",
-    "text": "2.3 Gestión de progreso de tareas\nCada tarea asignada es convertida en una tarjeta dentro de la plataforma.\n\n2.3.1 Tarjeta de tarea\nAl iniciar la aplicación, todas las tarjetas inician en un estado cerrado, en la que solo es posible ver el título de la tarea y su fecha límite. Todas las tareas recién creadas aparecen en la columna de “Pendientes”.\n\n\n\n\n\nEl color de la etiqueta en la que aparece la fecha límite variará según qué tan cerca se esté de ella al momento de ver la tarjeta:\n\nVerde: Hasta el día previo de la fecha límite\nAmarillo: El día de fecha límite\nRojo: Desde un día después de la fecha límite\n\nDe esta manera se puede hacer un seguimiento rápido a las tareas que sean más urgentes.\nAl hacer click en el botón + la tarjeta mostrará información extra de la tarea.\n\n\n\n\n\nLa información extra incluye la descripción, el nombre de la persona responsable, la hora límite y la unidad de medida establecida.La parte inferior de la tarjeta muestra la fecha y hora de creación, así como la persona que asignó la tarea.\nAl presionar sobre el símbolo de menú (…) se obtienen opciones de acción para la gestión de la tarea.\n\n\n\n\n\n\n\n2.3.2 Avanzar\nPermite avanzar en el ciclo de vida de la tarea. Inicialmente la tarea tiene un estado “Pendiente”, pero con esta opción podemos registrar algún tipo de progreso. Darle click en “Avanzar” abre una ventana que modifica el estado de la tarea.\n\n\n\n\n\nLas opciones para elegir el nuevo estado de la tarea dependerán del estado actual de la tarea. Por ejemplo, desde “Pendiente” es posible indicar que la tarea está “En proceso” o “En revisión”.\nPor último, el campo “Detalles” permite brindar información extra sobre el progreso reportado, como señalar coordinaciones, revisiones o cumplimientos parciales. Si está resultando difícil completar los plazos establecidos, pueden indicarse razones en esta celda.\nUna vez guardado el progreso, la tarjeta de tarea aparecerá en la columna correspondiente al nuevo estado.\n\n\n2.3.3 Editar\nPermite cambiar el título o descripción de la tarea. Utilizarlo en caso de que la redacción de alguno de ellos ya no resulte satisfactoria o sea necesario actualizar la fecha límite de entrega.\n\n\n\n\n\nCada edición genera una entrada en el historial de la tarea.\n\n\n2.3.4 Ver historia\nPermite ver todos los reportes de progreso reportados en esta tarea o sus ediciones. Indica la fecha y hora de reporte, persona que reportó, estado de la tarea y el detalle provisto.\n\n\n\n\n\n\n\n2.3.5 Eliminar\nPermite eliminar la tarea seleccionada. Debe aplicarse solo en caso de errores diferentes a la redacción del título y descripción. Un cuadro de diálogo pedirá confirmación de esta acción."
-  },
-  {
-    "objectID": "chap-appendix/index.html#pendiente",
-    "href": "chap-appendix/index.html#pendiente",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
-    "section": "A.1 Pendiente",
-    "text": "A.1 Pendiente\nIndica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.\nNo hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano."
-  },
-  {
-    "objectID": "chap-appendix/index.html#en-proceso",
-    "href": "chap-appendix/index.html#en-proceso",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
-    "section": "A.2 En proceso",
-    "text": "A.2 En proceso\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. En esta fase la tarea necesita aún avances significativos.\nIdealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra."
-  },
-  {
-    "objectID": "chap-appendix/index.html#pausado",
-    "href": "chap-appendix/index.html#pausado",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
-    "section": "A.3 Pausado",
-    "text": "A.3 Pausado\nIndica que la tarea tiene algún tipo de progreso pero el usuario NO está activamente trabajando para añadirle más progreso. Debe usarse cuando es necesario esperar trabajo de otras personas para progresar en la tarea o cuando una tarea más urgente es añadida, aplazando el cumplimiento de la actual.\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que la tarea podría haber sido dividida en varias partes."
-  },
-  {
-    "objectID": "chap-appendix/index.html#en-revisión",
-    "href": "chap-appendix/index.html#en-revisión",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
-    "section": "A.4 En revisión",
-    "text": "A.4 En revisión\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada. El cambio de fase de la tarea se encuentra a manos del responsable de equipo.\nSi la tarea:\n\nEstá adecuadamente concluida, debe darse por “Terminada”\nRequiere cambios mínimos -típicamente de forma- para considerarse concluida, debe indicarse como “Observada”\nRequiere cambios sustanciales para considerarse concluida, debe indicarse como “En proceso”.\n\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información."
-  },
-  {
-    "objectID": "chap-appendix/index.html#observado",
-    "href": "chap-appendix/index.html#observado",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
-    "section": "A.5 Observado",
-    "text": "A.5 Observado\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada pero necesita cambios mínimos antes de darla por finalizada. Generalmente estos cambios están referidos a correcciones de formato, ortografía, puntuación y otros relacionados. Una vez finalizada la corrección debe volver a reportarse como “En revisión”.\nNo existe límite respecto al número de tareas que pueden tener este estado. Si una misma tarea es observada múltiples veces significa que la retroalimentación por parte del responsable de equipo no está siendo consistente o que el usuario no está tomando en cuenta la retroalimentación en su totalidad."
-  },
-  {
-    "objectID": "chap-appendix/index.html#terminado",
-    "href": "chap-appendix/index.html#terminado",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
-    "section": "A.6 Terminado",
-    "text": "A.6 Terminado\nIndica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.\nNo existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas."
-  },
-  {
     "objectID": "manual-user.html#creación-de-nueva-tarea",
     "href": "manual-user.html#creación-de-nueva-tarea",
     "title": "1  Manual de usuario",
@@ -110,6 +26,34 @@
     "title": "1  Manual de usuario",
     "section": "1.3 Gestión de progreso de tareas",
     "text": "1.3 Gestión de progreso de tareas\nCada tarea asignada es convertida en una tarjeta dentro de la plataforma.\n\n1.3.1 Tarjeta de tarea\nAl iniciar la aplicación, todas las tarjetas inician en un estado cerrado, en la que solo es posible ver el título de la tarea y su fecha límite. Todas las tareas recién creadas aparecen en la columna de “Pendientes”.\n\n\n\n\n\nEl color de la etiqueta en la que aparece la fecha límite variará según qué tan cerca se esté de ella al momento de ver la tarjeta:\n\nVerde: Hasta el día previo de la fecha límite\nAmarillo: El día de fecha límite\nRojo: Desde un día después de la fecha límite\n\nDe esta manera se puede hacer un seguimiento rápido a las tareas que sean más urgentes.\nAl hacer click en el botón + la tarjeta mostrará información extra de la tarea.\n\n\n\n\n\nLa información extra incluye la descripción, el nombre de la persona responsable, la hora límite y la unidad de medida establecida.La parte inferior de la tarjeta muestra la fecha y hora de creación, así como la persona que asignó la tarea.\nAl presionar sobre el símbolo de menú (…) se obtienen opciones de acción para la gestión de la tarea.\n\n\n\n\n\n\n\n1.3.2 Avanzar\nPermite avanzar en el ciclo de vida de la tarea. Inicialmente la tarea tiene un estado “Pendiente”, pero con esta opción podemos registrar algún tipo de progreso. Darle click en “Avanzar” abre una ventana que modifica el estado de la tarea.\n\n\n\n\n\nLas opciones para elegir el nuevo estado de la tarea dependerán del estado actual de la tarea. Por ejemplo, desde “Pendiente” es posible indicar que la tarea está “En proceso” o “En revisión”.\nPor último, el campo “Detalles” permite brindar información extra sobre el progreso reportado, como señalar coordinaciones, revisiones o cumplimientos parciales. Si está resultando difícil completar los plazos establecidos, pueden indicarse razones en esta celda.\nUna vez guardado el progreso, la tarjeta de tarea aparecerá en la columna correspondiente al nuevo estado.\n\n\n1.3.3 Editar\nPermite cambiar el título o descripción de la tarea. Utilizarlo en caso de que la redacción de alguno de ellos ya no resulte satisfactoria o sea necesario actualizar la fecha límite de entrega.\n\n\n\n\n\nCada edición genera una entrada en el historial de la tarea.\n\n\n1.3.4 Ver historia\nPermite ver todos los reportes de progreso reportados en esta tarea o sus ediciones. Indica la fecha y hora de reporte, persona que reportó, estado de la tarea y el detalle provisto.\n\n\n\n\n\n\n\n1.3.5 Eliminar\nPermite eliminar la tarea seleccionada. Debe aplicarse solo en caso de errores diferentes a la redacción del título y descripción. Un cuadro de diálogo pedirá confirmación de esta acción."
+  },
+  {
+    "objectID": "manual-admin.html#gestión-de-miembros-de-equipo",
+    "href": "manual-admin.html#gestión-de-miembros-de-equipo",
+    "title": "2  Manual de responsable de equipo",
+    "section": "2.1 Gestión de miembros de equipo",
+    "text": "2.1 Gestión de miembros de equipo\nEl panel de gestión de miembros de equipo permite a una persona especialmente designada para ello añadir, editar y eliminar usuarios de los equipos de trabajo. Para acceder al panel de gestión de miembros de equipo, se debe hacer click en el botón  el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:\n\n\n\n\n\nEl botón  nos dirige al panel de gestión de miembros del equipo. Una vez que accedemos al panel, aparecerá un menú de opciones como el siguiente:\n\n\n\n\n\nPara añadir a un nuevo usuario a algún equipo de trabajo se debe hacer click en el botón verde “Agregar” que se encuentra en la parte superior del menú de opciones. Nos aparecerá una ventana en la que podemos seleccionar el usuario específico que queremos incluir dentro de un equipo, personalizar sus tareas y asignarle un rol específico dentro del equipo. A continuación se explica el contenido de cada campo.\n\nSelecciona usuario\nEste botón presenta una lista de todos los trabajadores que laboran en una determinada unidad funcional. A partir de esa lista desplegable, se puede escoger a la persona que se desea incluir dentro de un equipo específico.\nColor\nEste botón asignarle a cada usuario un color que permita identificar rápidamente las tarjetas de tarea que ha creado. De esta manera, cuando un jefe de equipo visibilice todas las tareas que vienen desarrollando sus colegas, podrá distinguir a partir del color quién está desarrollando cada acción.\nRol\nEste botón permite asignar un rol específico a cada persona dentro de un equipo. Existen dos roles que es posible asignar a un determinado usuario dentro de un equipo: usuario y responsable. El primer tipo de rol puede añadir, eliminar y avanzar tareas. Por su parte, el segundo tipo de rol está facultado -además de todas las acciones disponibles para los usuarios- a visualizar las tareas de todos los miembros de su equipo y enviar las tareas registradas por cada uno de ellos a la columna “Terminado”.\nPara modificar la información de algún usuario, es necesario volver al panel de gestión de de miembros de equipo. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón amarillo que muestra el ícono de un lápiz y que se encuentra al lado derecho del nombre del usuario que se quiere editar. Al hacerlo, aparecerá una ventana como la siguiente:\n\nPara eliminar a un usuario de un determinado equipo de trabajo, es necesario volver al panel de gestión de de miembros de equipo. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón rojo que muestra el ícono de un tacho de basura y que se encuentra al lado derecho del nombre del usuario que se quiere eliminar. Al hacerlo aparecerá una ventana como la siguiente:\n\n\n\n\n\nPara completar la eliminación, solo se debe dar click en el botón “Confirmar” y listo."
+  },
+  {
+    "objectID": "manual-admin.html#gestión-de-procesos",
+    "href": "manual-admin.html#gestión-de-procesos",
+    "title": "2  Manual de responsable de equipo",
+    "section": "2.2 Gestión de procesos",
+    "text": "2.2 Gestión de procesos\nPoner cómo luce el panel de gestión de procesos, cómo añadir, editar y eliminar."
+  },
+  {
+    "objectID": "manual-admin.html#gestión-de-unidades-de-medida",
+    "href": "manual-admin.html#gestión-de-unidades-de-medida",
+    "title": "2  Manual de responsable de equipo",
+    "section": "2.3 Gestión de unidades de medida",
+    "text": "2.3 Gestión de unidades de medida\nPoner cómo luce el panel de gestión de unidades de medida, cómo añadir, editar y eliminar."
+  },
+  {
+    "objectID": "manual-admin.html#descarga-de-reportes",
+    "href": "manual-admin.html#descarga-de-reportes",
+    "title": "2  Manual de responsable de equipo",
+    "section": "2.4 Descarga de reportes",
+    "text": "2.4 Descarga de reportes\nPoner cómo luce el panel de descarga de reportes, cómo añadir y archivar."
   },
   {
     "objectID": "zzz-task-lifecycle.html#pendiente",
@@ -152,33 +96,5 @@
     "title": "Appendix A — Ciclo de vida de una tarea",
     "section": "A.6 Terminado",
     "text": "A.6 Terminado\nIndica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.\nNo existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas."
-  },
-  {
-    "objectID": "manual-admin.html#gestión-de-miembros-de-equipo",
-    "href": "manual-admin.html#gestión-de-miembros-de-equipo",
-    "title": "2  Manual de responsable de equipo",
-    "section": "2.1 Gestión de miembros de equipo",
-    "text": "2.1 Gestión de miembros de equipo\nPoner cómo luce el panel de gestión de miembros de equipo, cómo añadir, editar y eliminar."
-  },
-  {
-    "objectID": "manual-admin.html#gestión-de-procesos",
-    "href": "manual-admin.html#gestión-de-procesos",
-    "title": "2  Manual de responsable de equipo",
-    "section": "2.2 Gestión de procesos",
-    "text": "2.2 Gestión de procesos\nPoner cómo luce el panel de gestión de procesos, cómo añadir, editar y eliminar."
-  },
-  {
-    "objectID": "manual-admin.html#gestión-de-unidades-de-medida",
-    "href": "manual-admin.html#gestión-de-unidades-de-medida",
-    "title": "2  Manual de responsable de equipo",
-    "section": "2.3 Gestión de unidades de medida",
-    "text": "2.3 Gestión de unidades de medida\nPoner cómo luce el panel de gestión de unidades de medida, cómo añadir, editar y eliminar."
-  },
-  {
-    "objectID": "manual-admin.html#descarga-de-reportes",
-    "href": "manual-admin.html#descarga-de-reportes",
-    "title": "2  Manual de responsable de equipo",
-    "section": "2.4 Descarga de reportes",
-    "text": "2.4 Descarga de reportes\nPoner cómo luce el panel de descarga de reportes, cómo añadir y archivar."
   }
 ]
