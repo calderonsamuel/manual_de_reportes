@@ -114,42 +114,42 @@
   {
     "objectID": "zzz-task-lifecycle.html#pendiente",
     "href": "zzz-task-lifecycle.html#pendiente",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
+    "title": "Appendix A — Ciclo de vida de una tarea",
     "section": "A.1 Pendiente",
     "text": "A.1 Pendiente\nIndica que la tarea no tiene ningún progreso. Se asigna automáticamente a tareas recién agregadas. En caso de que el usuario realice progreso en la tarea, debe avanzar su estado.\nNo hay un límite respecto al número de tareas que pueden tener este estado. Un gran acumulado en el número de pendientes podría significar que se asignan tareas sin tomar en cuenta la carga de trabajo del usuario. Por el contrario, la ausencia de tareas pendientes podría significar que no se aprovecha de manera adecuada el recurso humano."
   },
   {
     "objectID": "zzz-task-lifecycle.html#en-proceso",
     "href": "zzz-task-lifecycle.html#en-proceso",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
+    "title": "Appendix A — Ciclo de vida de una tarea",
     "section": "A.2 En proceso",
     "text": "A.2 En proceso\nIndica que la tarea tiene algún tipo de progreso y el usuario está activamente trabajando para añadirle más progreso. En esta fase la tarea necesita aún avances significativos.\nIdealmente, cualquier usuario debe tener siempre una tarea en este estado. Cuando una tarea “En proceso” cambia de estado, debe ser reemplazada por otra."
   },
   {
     "objectID": "zzz-task-lifecycle.html#pausado",
     "href": "zzz-task-lifecycle.html#pausado",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
+    "title": "Appendix A — Ciclo de vida de una tarea",
     "section": "A.3 Pausado",
     "text": "A.3 Pausado\nIndica que la tarea tiene algún tipo de progreso pero el usuario NO está activamente trabajando para añadirle más progreso. Debe usarse cuando es necesario esperar trabajo de otras personas para progresar en la tarea o cuando una tarea más urgente es añadida, aplazando el cumplimiento de la actual.\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que la tarea podría haber sido dividida en varias partes."
   },
   {
     "objectID": "zzz-task-lifecycle.html#en-revisión",
     "href": "zzz-task-lifecycle.html#en-revisión",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
+    "title": "Appendix A — Ciclo de vida de una tarea",
     "section": "A.4 En revisión",
     "text": "A.4 En revisión\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada. El cambio de fase de la tarea se encuentra a manos del responsable de equipo.\nSi la tarea:\n\nEstá adecuadamente concluida, debe darse por “Terminada”\nRequiere cambios mínimos -típicamente de forma- para considerarse concluida, debe indicarse como “Observada”\nRequiere cambios sustanciales para considerarse concluida, debe indicarse como “En proceso”.\n\nNo existe límite respecto al número de tareas que pueden tener este estado. Sin embargo, si las tareas pasan mucho tiempo en esta fase, podría significar que el responsable de equipo no está revisando la finalización de las tareas bajo la lógica de la gestión de la información."
   },
   {
     "objectID": "zzz-task-lifecycle.html#observado",
     "href": "zzz-task-lifecycle.html#observado",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
+    "title": "Appendix A — Ciclo de vida de una tarea",
     "section": "A.5 Observado",
     "text": "A.5 Observado\nIndica que la tarea tiene progreso suficiente como para ser considerada como terminada pero necesita cambios mínimos antes de darla por finalizada. Generalmente estos cambios están referidos a correcciones de formato, ortografía, puntuación y otros relacionados. Una vez finalizada la corrección debe volver a reportarse como “En revisión”.\nNo existe límite respecto al número de tareas que pueden tener este estado. Si una misma tarea es observada múltiples veces significa que la retroalimentación por parte del responsable de equipo no está siendo consistente o que el usuario no está tomando en cuenta la retroalimentación en su totalidad."
   },
   {
     "objectID": "zzz-task-lifecycle.html#terminado",
     "href": "zzz-task-lifecycle.html#terminado",
-    "title": "Apéndice A — Ciclo de vida de una tarea",
+    "title": "Appendix A — Ciclo de vida de una tarea",
     "section": "A.6 Terminado",
     "text": "A.6 Terminado\nIndica que la tarea ha sido cumplida satisfactoriamente. Solo se puede avanzar a esta fase a través de un usuario responsable de equipo.\nNo existe límite respecto al número de tareas que pueden tener este estado. El tablero solo muestra las tareas que han sido concluidas en las últimas dos semanas."
   },
@@ -158,27 +158,27 @@
     "href": "manual-admin.html#gestión-de-miembros-de-equipo",
     "title": "2  Manual de responsable de equipo",
     "section": "2.1 Gestión de miembros de equipo",
-    "text": "2.1 Gestión de miembros de equipo"
+    "text": "2.1 Gestión de miembros de equipo\nPoner cómo luce el panel de gestión de miembros de equipo, cómo añadir, editar y eliminar."
   },
   {
     "objectID": "manual-admin.html#gestión-de-procesos",
     "href": "manual-admin.html#gestión-de-procesos",
     "title": "2  Manual de responsable de equipo",
     "section": "2.2 Gestión de procesos",
-    "text": "2.2 Gestión de procesos"
+    "text": "2.2 Gestión de procesos\nPoner cómo luce el panel de gestión de procesos, cómo añadir, editar y eliminar."
   },
   {
     "objectID": "manual-admin.html#gestión-de-unidades-de-medida",
     "href": "manual-admin.html#gestión-de-unidades-de-medida",
     "title": "2  Manual de responsable de equipo",
     "section": "2.3 Gestión de unidades de medida",
-    "text": "2.3 Gestión de unidades de medida"
+    "text": "2.3 Gestión de unidades de medida\nPoner cómo luce el panel de gestión de unidades de medida, cómo añadir, editar y eliminar."
   },
   {
     "objectID": "manual-admin.html#descarga-de-reportes",
     "href": "manual-admin.html#descarga-de-reportes",
     "title": "2  Manual de responsable de equipo",
     "section": "2.4 Descarga de reportes",
-    "text": "2.4 Descarga de reportes"
+    "text": "2.4 Descarga de reportes\nPoner cómo luce el panel de descarga de reportes, cómo añadir y archivar."
   }
 ]
