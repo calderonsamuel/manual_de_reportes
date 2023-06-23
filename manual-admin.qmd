@@ -2,7 +2,7 @@
 
 ## Gestión de miembros de equipo
 
-El panel de gestión de miembros de equipo permite a una persona especialmente designada para ello añadir, editar y eliminar usuarios de los equipos de trabajo. Para acceder al panel de gestión de miembros de equipo, se debe hacer click en el botón ![](img/manual-admin/Tuerca.png){width="13" height="17"} el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:
+El panel de gestión de miembros de equipo permite a una persona especialmente designada para ello añadir, editar y eliminar usuarios de los equipos de trabajo. Para acceder al panel de gestión de miembros de equipo, se debe hacer click en el botón ![](img/manual-admin/engranaje.png){width="13" height="17"} el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:
 
 ![](img/manual-admin/usuarios-menu-de-opciones.png){fig-align="center"}
 
@@ -38,17 +38,17 @@ Para completar la eliminación, solo se debe dar click en el botón "Confirmar" 
 
 ## Gestión de procesos
 
-El panel de gestión de procesos permite a una persona especialmente designada para ello vincular las tareas implementadas por ciertos usuarios o equipos específicos al desarrollo de determinados procesos que se encuentren dentro del marco normativo que regula una determinada unidad funcional. Para acceder al panel de procesos, se debe hacer click en el botón ![](img/manual-admin/Tuerca.png){width="13" height="17"} el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:
+El panel de gestión de procesos permite a una persona especialmente designada para ello vincular las tareas implementadas por ciertos usuarios o equipos específicos al desarrollo de determinados procesos que se encuentren dentro del marco normativo que regula una determinada unidad funcional. Para acceder al panel de procesos, se debe hacer click en el botón ![](img/manual-admin/engranaje.png){width="13" height="17"} el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:
 
-![](Men%C3%BA%20de%20opciones%202.png){fig-align="center" width="568"}
+![](img/manual-admin/procesos-menu-de-opciones.png){fig-align="center"}
 
-El botón ![](Bot%C3%B3n%20de%20gesti%C3%B3n%20de%20procesos.png){width="28" height="24"} nos dirige al panel de gestión de procesos. Una vez que accedemos al panel, aparecerá un menú de opciones como el siguiente:
+El botón ![](img/manual-admin/procesos-boton.png){width="28" height="24"} nos dirige al panel de gestión de procesos. Una vez que accedemos al panel, aparecerá un menú de opciones como el siguiente:
 
-![](Men%C3%BA%20desplegable%202.png){fig-align="center" width="351"}
+![](img/manual-admin/procesos-menu-desplegable.png){fig-align="center"}
 
 Para añadir a un nuevo proceso, se debe hacer click en el botón verde "Agregar" que se encuentra en la parte superior del menú de opciones. Nos aparecerá una ventana en la que podemos llenar información del proceso. A continuación se explica el contenido de cada campo.
 
-![]()![](A%C3%B1adir%20proceso.png)
+![]()![](img/manual-admin/proceso-agregar.png)
 
 **Nombre del proceso**
 
@@ -64,21 +64,21 @@ Puede tener como máximo 500 caracteres.
 
 Para modificar la información de algún proceso, es necesario volver al panel de gestión de procesos. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón amarillo que muestra el ícono de un lápiz y que se encuentra al lado derecho del nombre del proceso que se quiere editar. Al hacerlo, aparecerá una ventana como la siguiente:
 
-![](Editar%20proceso.png)
+![](img/manual-admin/proceso-editar.png)
 
 Para eliminar un proceso, es necesario volver al panel de gestión de gestión. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón rojo que muestra el ícono de un tacho de basura y que se encuentra al lado derecho del nombre del proceso que se quiere eliminar. Al hacerlo aparecerá una ventana como la siguiente:
 
-![](Eliminar%20proceso.png){fig-align="center"}
+![](img/manual-admin/proceso-eliminar.png){fig-align="center"}
 
 ## Gestión de unidades de medida
 
-El panel de gestión de mediciones permite a una persona especialmente designada para ello vincular los procesos desarrollados por ciertos usuarios o equipos específicos a productos o evidencias que permitan medir de la manera más precisa posible los avances de cada usuario o equipo. Para acceder al panel de gestión de mediciones, se debe hacer click en el botón ![](img/manual-admin/Tuerca.png){width="13" height="17"} el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:
+El panel de gestión de mediciones permite a una persona especialmente designada para ello vincular los procesos desarrollados por ciertos usuarios o equipos específicos a productos o evidencias que permitan medir de la manera más precisa posible los avances de cada usuario o equipo. Para acceder al panel de gestión de mediciones, se debe hacer click en el botón ![](img/manual-admin/engranaje.png){width="13" height="17"} el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:
 
-![](Men%C3%BA%20de%20opciones%203.png){fig-align="center" width="557"}
+![](img/manual-admin/unidad-menu-de-opciones.png){fig-align="center" width="557"}
 
-El botón ![](Bot%C3%B3n%20de%20gesti%C3%B3n%20de%20mediciones.png){width="27" height="24"} nos dirige al panel de gestión de mediciones de cada proceso. Una vez que accedemos al panel, aparecerá un menú de opciones como el siguiente:
+El botón ![](img/manual-admin/unidad-boton.png){width="27" height="24"} nos dirige al panel de gestión de mediciones de cada proceso. Una vez que accedemos al panel, aparecerá un menú de opciones como el siguiente:
 
-![](Men%C3%BA%20desplegable%203.png)
+![](img/manual-admin/unidad-menu-desplegable.png)
 
 Las unidades de medida de tareas son productos y evidencias que permiten medir el avance en las actividades cotidianas de una determinada unidad funcional. En ese sentido, sirven como herramienta de monitoreo del avance de un determinado proceso. Las unidades de medida de tareas típicas de una unidad funcional son: proyectos de oficios, oficios, proyectos de memorandos, memorandos, correos o informes. Sin embargo, debido al tipo de funciones que desempeña, cada proceso desarrollado por una unidad funcional puede tener unidades de medida distinta. Por su parte, las unidades de medida de reporte son productos o evidencia que permiten establecer si es que un proceso se ha completado satisfactoriamente o no. En ese sentido, sirven como herramienta de evaluación de un determinado proceso.
 
