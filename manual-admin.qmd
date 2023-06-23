@@ -48,7 +48,7 @@ El botón ![](img/manual-admin/procesos-boton.png){width="28" height="24"} nos d
 
 Para añadir a un nuevo proceso, se debe hacer click en el botón verde "Agregar" que se encuentra en la parte superior del menú de opciones. Nos aparecerá una ventana en la que podemos llenar información del proceso. A continuación se explica el contenido de cada campo.
 
-![]()![](img/manual-admin/proceso-agregar.png)
+![](img/manual-admin/proceso-agregar.png)
 
 **Nombre del proceso**
 
