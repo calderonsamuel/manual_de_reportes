@@ -1,0 +1,20 @@
+{
+  "hash": "55d88dadcba4297f03915218ceca88e9",
+  "result": {
+    "markdown": "# Prefacio {.unnumbered}\n\nLa Dirección de Control de Drogas y Cultivos Ilegales del Ministerio del Interior ha implementado un sistema informático para la gestión de la información de los avances en las tareas cotidianas y automatización de la generación de reportes. \n\nEste documento contiene las instrucciones para el uso del sistema informático.\n\nSi estás viendo este manual desde una computadora, el menú izquierdo permite acceder a diferentes capítulos del manual. Desde un teléfono, este menú se encuentra en la parte superior.\n\n\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

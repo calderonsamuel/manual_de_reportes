@@ -4,15 +4,15 @@
 
 El panel de gestión de miembros de equipo permite a una persona especialmente designada para ello añadir, editar y eliminar usuarios de los equipos de trabajo. Para acceder al panel de gestión de miembros de equipo, se debe hacer click en el botón ![](img/manual-admin/Tuerca.png){width="13" height="17"} el cual se encuentra ubicado en la esquina superior derecha de la pantalla. Al hacer click en ese botón, aparecerá el siguiente menú de opciones:
 
-![](img/manual-admin/Men%C3%BA%20de%20opciones.png){fig-align="center" width="501"}
+![](img/manual-admin/usuarios-menu-de-opciones.png){fig-align="center"}
 
-El botón ![](img/manual-admin/Bot%C3%B3n%20de%20gesti%C3%B3n%20de%20equipos.png){width="29" height="23"} nos dirige al panel de gestión de miembros del equipo. Una vez que accedemos al panel, aparecerá un menú de opciones como el siguiente:
+El botón ![](img/manual-admin/usuarios-boton.png){width="29" height="23"} nos dirige al panel de gestión de miembros del equipo. Una vez que accedemos al panel, aparecerá un menú de opciones como el siguiente:
 
-![](img/manual-admin/Men%C3%BA%20desplegable.png){fig-align="center"}
+![](img/manual-admin/usuarios-menu-desplegable.png){fig-align="center"}
 
 Para añadir a un nuevo usuario a algún equipo de trabajo se debe hacer click en el botón verde "Agregar" que se encuentra en la parte superior del menú de opciones. Nos aparecerá una ventana en la que podemos seleccionar el usuario específico que queremos incluir dentro de un equipo, personalizar sus tareas y asignarle un rol específico dentro del equipo. A continuación se explica el contenido de cada campo.
 
-![](img/manual-admin/A%C3%B1adir%20miembro.png)
+![](img/manual-admin/usuarios-agregar.png)
 
 **Selecciona usuario**
 
@@ -28,11 +28,11 @@ Este botón permite asignar un rol específico a cada persona dentro de un equip
 
 Para modificar la información de algún usuario, es necesario volver al panel de gestión de de miembros de equipo. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón amarillo que muestra el ícono de un lápiz y que se encuentra al lado derecho del nombre del usuario que se quiere editar. Al hacerlo, aparecerá una ventana como la siguiente:
 
-![](img/manual-admin/Editar%20miembro.png)
+![](img/manual-admin/usuarios-editar.png)
 
 Para eliminar a un usuario de un determinado equipo de trabajo, es necesario volver al panel de gestión de de miembros de equipo. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón rojo que muestra el ícono de un tacho de basura y que se encuentra al lado derecho del nombre del usuario que se quiere eliminar. Al hacerlo aparecerá una ventana como la siguiente:
 
-![](img/manual-admin/Eliminar%20usuario.png){fig-align="center"}
+![](img/manual-admin/usuarios-eliminar.png){fig-align="center"}
 
 Para completar la eliminación, solo se debe dar click en el botón "Confirmar" y listo.
 
@@ -86,7 +86,7 @@ Para añadir una nueva unidad de medida de tarea o de reporte, es necesario prim
 
 Una vez identificado el proceso a partir del cual se va a desarrollar una unidad de medida, se debe hacer click en el botón verde "Agregar" que se encuentra en la parte superior del menú de opciones. Nos aparecerá una ventana en la que podemos llenar información del proceso. A continuación se explica el contenido de cada campo.
 
-![](img/manual-admin/A%C3%B1adir%20unidad%20de%20medida.png){fig-align="center"}
+![](img/manual-admin/unidad-agregar.png){fig-align="center"}
 
 **Título de la unidad de medida**
 
@@ -110,17 +110,17 @@ El ícono es una figura estilizada que podemos asignar a una determinada unidad 
 
 Para modificar la información de alguna unidad de medida de reporte o tarea, es necesario volver al panel de gestión de mediciones. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón amarillo que muestra el ícono de un lápiz y que se encuentra al lado derecho del nombre de la unidad de medida que se quiere editar. Al hacerlo, aparecerá una ventana como la siguiente:
 
-![](img/manual-admin/Editar%20unidad%20de%20medida.png){fig-align="center"}
+![](img/manual-admin/unidad-editar.png){fig-align="center"}
 
 Para eliminar una unidad de medida, es necesario volver al panel de gestión de la medición. Una vez que estamos frente al menú de opciones, se debe hacer click en el botón rojo que muestra el ícono de un tacho de basura y que se encuentra al lado derecho del nombre de la unidad de medida que se quiere eliminar. Al hacerlo aparecerá una ventana como la siguiente:
 
-![](img/manual-admin/Eliminar%20unidad%20de%20medida.png)
+![](img/manual-admin/unidad-eliminar.png)
 
 ## Descarga de reportes
 
 El panel de descarga de reportes permite sistematizar de manera automatizada en una hoja de cálculo los datos de los avances de las actividades o procesos -a través de sus respectivas unidades de medida- que ha venido desarrollando el personal de una determinada unidad funcional durante un período de tiempo determinado. Para acceder a esta función debe dirigirse a la parte superior izquierda de la pantalla, más específicamente, al menú de la columna "Pendiente". Se debe hacer click en el botón `...` y escoger el item "Opciones de descarga". Nos aparecerá una ventana en la que podemos especificar la información que queremos descargar. A continuación se explica el contenido de cada campo.
 
-![](img/manual-admin/Opci%C3%B3n%20de%20descarga.png)
+![](img/manual-admin/descarga-ventana.png)
 
 **Período de datos**
 
