@@ -6,13 +6,3 @@ Este documento contiene las instrucciones para el uso del sistema informático.
 
 Si estás viendo este manual desde una computadora, el menú izquierdo permite acceder a diferentes capítulos del manual. Desde un teléfono, este menú se encuentra en la parte superior.
 
-
-```{r}
-#| eval: false
-#| echo: false
-
-system("git add -A")
-gert::git_commit("cambios de diego")
-gert::git_push()
-```
-
